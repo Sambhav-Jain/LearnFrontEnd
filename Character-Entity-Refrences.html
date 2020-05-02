@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Entity References</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td,th,table{
+            border: 3px solid black;
+        }
+        td,th{
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Character Entity References
+        </h1>
+    </header>
+    <main>
+        <section>
+            <article>
+                Some special characters are reserved for use in HTML, meaning that your browser will parse them as HTML code. To display these characters as text, replace them with their corresponding character entities. HTML <ins>character entity reference</ins> is a special set of characters (a code), which the browser displays as a special character or a symbol, corresponding to the entity reference code.The general format of an HTML character entity reference is <mark>&amp;</mark>, followed by some code, followed by <mark>;</mark>, without any spaces in between.
+            </article>
+        </section>
+        <br>
+        <table>
+            <caption>A List of Commonly used Entity References</caption>
+            <thead>
+                <tr>
+                    <th>Character Entity Refrence</th>
+                    <th>Result</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&amp;amp;</td>
+                    <td>&amp;</td>
+                </tr>
+                <tr>
+                    <td>&amp;lt;</td>
+                    <td>&lt;</td>
+                </tr>
+                <tr>
+                    <td>&amp;gt;</td>
+                    <td>&gt;</td>
+                </tr>
+                <tr>
+                    <td>&amp;quot;</td>
+                    <td>&quot;</td>
+                </tr>
+                <tr>
+                    <td>&amp;nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+        <article>
+            <ul>
+                <li>
+                    <h3><ins>Most Missused Entity Reference:</ins> &amp;nbsp;</h3>
+                    <p>
+                        The non-breaking space character entity reference, <mark> &amp;nbsp;</mark> can be used to force the browser not to break up space-separated words when wrapping contents.<br>
+                        Note that it should not be used for larger visual spacing between words. That’s a misuse of the non-breaking space characte
+                    </p>
+                </li>
+            </ul>
+        </article>
+        <article>
+            <h3>Resources</h3>
+            <ul>
+                <li>
+                    <a href ="https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references" target = "blank"> Official list of character entities </a>
+                </li>
+                <li>
+                    <a href="https://dev.w3.org/html5/html-author/charref" target="blank">Character Entity References Chart</a>
+                </li>
+            </ul>
+        </article>
+        
+    </main>
+</body>
+</html>
